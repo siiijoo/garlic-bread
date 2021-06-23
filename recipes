@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header>
+        <nav class="navbar">
+                <div class="navbar__items__list">
+                    <ul class="list">
+                        <li class="navbar__item">Home</li>
+                        <li class="navbar__item">Explore</li>
+                        <li class="navbar__item">Recipes</li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+
+    <main class="container">
+        <section>
+            <h1 id="dish"> Garlic Bread </h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG2YuAsOGPlmnBaZDbJ0cF8WuupIJmLV-IxA&usqp=CAU" alt="garlic bread" class="image__dish">
+            <p class="dish__intro">The following steps are the steps for cooking perfect and delicious <strong> Garlic Bread </strong></p>
+            <br>
+            <h2 class="ingredients__title heading" >Ingredients: </h3>
+                <ol class="ingredients__list">
+                    <li class="ingridient">1 16-ounce (450 g) loaf Italian bread or French bread</li> 
+                    <li class="ingridient">1/2 cup (1 stick, 112 g) unsalted butter, softened</li> 
+                    <li class="ingridient">2 large cloves garlic, smashed and minced</li> 
+                    <li class="ingridient">1 heaping tablespoon chopped fresh parsley</li> 
+                    <li class="ingridient">1/4 cup (25 g) freshly grated Parmesan cheese (optional)</li> 
+                    </ol>
+            <h2 class="procedure__title heading"> Steps To Follow:- </h2>    
+                <ul class="procedure__list">
+                    <li class="steps"> <u> <em class="step"> Step 1:</em> </u>Preheat oven to 350°F </li>
+                    <li class="steps"> <u> <em class="step"> Step 2:</em> </u>Cut the loaf in half, horizontally. Mix the butter, garlic, and parsley together in a small bowl. Spread butter mixture over the the two bread halves. </li>
+                    <li class="steps"> <u> <em class="step"> Step 3:</em> </u> Place on a sturdy baking pan (one that can handle high temperatures, not a cookie sheet) and heat in a 350°F (175°C) oven for 10 minutes.</li>
+                    <li class="steps"> <u> <em class="step"> Step 4:</em> </u>  Remove pan from oven. Sprinkle Parmesan cheese over bread if you want. Return to oven on the highest rack.</li>
+                    <li class="steps"> <u> <em class="step"> Step 5:</em> </u> Remove from oven, let cool a minute. Remove from pan and use a bread knife to cut into 1-inch thick slices. Serve immediately.</li>
+                   </ul>
+        </section>
+
+        <!-- TABLE -->
+
+        <h2 class="nutrition heading"> Nutritional Value</h2>
+        <table>
+            <tr>
+                <th> Ingredients </th>
+                <th> Amount per 8 servings</th>
+                <th> % Daily Value  </th>
+            </tr>
+            <tr>
+                <td> Protein </td>
+                <td> 2.5g </td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td> Carbohydrates </td>
+                <td> 16.8g</td>
+                <td> 6% </td>
+            </tr>
+            <tr>
+                <td> Dietary Fiber </td>
+                <td> 0.1g</td>
+                <td> 0%</td>
+            </tr>
+            <tr>
+                <td> Sugar </td>
+                <td> 1.5g</td>
+                <td> N/A </td>
+            </tr>
+            <tr>
+                <td>Fat </td>
+                <td> 8.8g</td>
+                <td> 13% </td>
+            </tr>
+            <tr>
+                <td> Cholestrol </td>
+                <td> 17.5mg</td>
+                <td> 4%  </td>
+            </tr>
+        </table>   
+    </main>
+    <hr>
+
+    <!-- FOOTER -->
+    
+    <footer>
+        <div class="footer__items">
+            <ul class="footer__list">
+                <li>Privacy</li>
+                <li>Contact</li>
+                <li>Terms and Conditions</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div style="background-color: red;" class="copyright">
+            &copy; sijo koovanal
+        </div>
+    </footer>
+    
+</body>
+</html>
